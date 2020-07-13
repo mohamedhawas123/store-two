@@ -1,0 +1,19 @@
+<Table.Row>
+                    <ProductConsumer>
+                        {hey => {
+                            const {title, img, price} = hey.detailproducts
+                            return (
+                                <React.Fragment>
+                                <Table.HeaderCell>1</Table.HeaderCell>
+                                <Table.HeaderCell>{title}</Table.HeaderCell>
+                                <Table.HeaderCell> {price}</Table.HeaderCell>
+                                <Table.HeaderCell> img </Table.HeaderCell>
+                                <Table.HeaderCell>Total item price</Table.HeaderCell>
+                                </React.Fragment>
+                            )
+                        }}
+                         
+                    </ProductConsumer>
+                    
+                   
+                </Table.Row>
